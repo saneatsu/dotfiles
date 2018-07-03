@@ -21,3 +21,6 @@
 ## Vim
 * [Vimの設定ファイルを作る](https://qiita.com/tetsuya/items/75987487ffac42250d3b)
 * [何も考えず~/.vimrcにこれを書くんだ！ 〜vim初心者によるvim初心者のためのvim入門〜](https://qiita.com/morikooooo/items/9fd41bcd8d1ce9170301)
+* [.vimrc の基本的な設定項目について](https://qiita.com/kojionilk/items/67379e68cf54d811081a)
+* [初めてのvim - そしてvimrc晒しへ -](http://cimadai.hateblo.jp/entry/20080325/1206459666)
+* [vimrcを晒してみる](http://archiva.jp/web/tool/vimrc.html)
