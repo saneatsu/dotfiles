@@ -1,5 +1,5 @@
 [user]
-	name = saneatsu
+	name=saneatsu
 	email = w.saneatsu@gmail.com
 [core]
 	excludesfile = /Users/saneatsuwakana/.gitignore_global
@@ -7,7 +7,7 @@
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /private/var/folders/dd/lnp7gbfd799d1b6btyglr_xm0000gn/T/AppTranslocation/2C0AC7AF-C1B7-468B-A78A-309548CD3F2C/d/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
 	template = /Users/saneatsuwakana/.stCommitMsg
@@ -22,3 +22,5 @@
         df = diff
         pl = pull
         a = add
+	conf = !git ls-files -u | cut -f 2 | sort -u
+
