@@ -1,8 +1,9 @@
 [user]
-	name=saneatsu
+	name = saneatsu
 	email = w.saneatsu@gmail.com
 [core]
 	excludesfile = /Users/saneatsuwakana/.gitignore_global
+	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -10,7 +11,7 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
-	template = /Users/saneatsuwakana/.stCommitMsg
+	template = /Users/saneatsuwakana/.commit_template
 [alias]
 	tree = log --graph --all --format=\"%x09%C(cyan bold)%an%Creset%x09%C(yellow)%h%Creset %C(magenta reverse)%d%Creset %s\"
         ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
@@ -18,9 +19,11 @@
         ss = status -s
         co = checkout
         br = branch
+        co = commit
         com = commit -m
         df = diff
         pl = pull
+        ps = push
         a = add
 	conf = !git ls-files -u | cut -f 2 | sort -u
 
