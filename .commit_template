@@ -1,33 +1,37 @@
 
 
 # ==== Emojis ====
-# 🐛  :bug:                       Fixing a bug.
-# 👍  :+1:                        Update features.
-# ✨  :sparkles:                  Add partial new features.
-# 🎉  :tada:                      Add significant new features.
-# 🔥  :fire:                      Removing code or files.
-# ♻️  :recycle:                   Refactoring code.
-# 🎨  :art:                       Improving structure/format of the code.
-# 💄  :lipstick:                  Updating the UI and style files.
-# 🔧  :wrench:                    Changing configuration files.
-# 🌐  :globe_with_meridians:      Internationalization and localization.
-# 💚  :green_heart:               Fixing Test or CI Build.
+# 🐛  :bug:                       Fixing a bug
+# 👍  :+1:                        Update features
+# ✨  :sparkles:                  Add partial new features
+# 🎉  :tada:                      Add significant new features
+# 🔥  :fire:                      Removing code or files
+# ♻️  :recycle:                   Refactoring code
+# 🎨  :art:                       Improving structure/format of the code
+# 💄  :lipstick:                  Updating the UI and style files
+# 🔧  :wrench:                    Changing configuration files
+# 🌐  :globe_with_meridians:      Internationalization and localization
+# ✅  :white_check_mark:          Adding a test
+# 💚  :green_heart:               Fixing Test or CI Build
+# 🚑  :ambulance:                 Critical hotfix
+# 📈  :chart_with_upwards_trend:  Analytics or tracking code
 # 🚀  :rocket:                    Update performance
 # ⚗  :alembic:                   Experimenting new things
-# 🔊  :loud_sound:                Adding logs.
-# 🔇  :mute:                      Removing logs.
-# ⬇️  :arrow_down:                Downgrading dependencies.
-# ⬆️  :arrow_up:                  Upgrading dependencies.
-# ⏪  :rewind:                    Reverting changes.
-# 🔀  :twisted_rightwards_arrows: Merging branches.
-# 🔒  :lock:                      Fixing security issues.
-# 👮  :cop:                       Update security features.
-# ✏️  :pencil2:                   Fixing typos.
-# 🚧  :construction:              Work in progress.
-# 📝  :memo:                      Writing docs.
-# 💩  :hankey:                    Writing bad code that needs to be improved.
-# 💡  :bulb:                      Documenting source code.
-# 🗑️  :wastebasket:               Remove file.
+# 🔊  :loud_sound:                Adding logs
+# 🔇  :mute:                      Removing logs
+# ⬇️  :arrow_down:                Downgrading dependencies
+# ⬆️  :arrow_up:                  Upgrading dependencies
+# ⏪  :rewind:                    Reverting changes
+# 🔀  :twisted_rightwards_arrows: Merging branches
+# 🔒  :lock:                      Fixing security issues
+# 👮  :cop:                       Update security features
+# ✏️  :pencil2:                   Fixing typos
+# 🚧  :construction:              Work in progress
+# 📝  :memo:                      Writing docs
+# 💩  :hankey:                    Writing bad code that needs to be improved
+# 🚚  :truck:                     Move/rename repository
+# 💡  :bulb:                      Documenting source code
+# 🗑️  :wastebasket:               Remove file
 
 # ==== Format ====
 # :emoji: Subject
