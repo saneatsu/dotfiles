@@ -2,27 +2,31 @@
 
 # ==== Emojis ====
 # ---- General ----
-# 🐛  :bug:                       Fixing a bug
 # 👍  :+1:                        Update features
 # ✨  :sparkles:                  Add partial new features
 # 🎉  :tada:                      Add significant new features
 # 🗑️  :wastebasket:               Remove file
-# 📝  :memo:                      Writing docs
-# 💡  :bulb:                      Documenting source code
+# ⚗  :alembic:                   Experimenting new things
 # ♻️  :recycle:                   Refactoring code
 # 🎨  :art:                       Improving structure/format of the code
 # 💄  :lipstick:                  Updating the UI and style files
 # 🔧  :wrench:                    Changing configuration files
 # 🌐  :globe_with_meridians:      Internationalization and localization
-# 🚑  :ambulance:                 Critical hotfix
 # 🚀  :rocket:                    Update performance
+# 🚚  :truck:                     Move/rename files or repository
+# 💡  :bulb:                      Documenting source code
+# ⏪  :rewind:                    Reverting changes
+# 🔀  :twisted_rightwards_arrows: Merging branches
+# ---- Fix ----
+# 🐛  :bug:                       Fixing a bug
+# 🚑  :ambulance:                 Critical hotfix
 # ✏️  :pencil2:                   Fixing typos
 # 🚧  :construction:              Work in progress
 # 💩  :hankey:                    Writing bad code that needs to be improved
-# 🚚  :truck:                     Move/rename files or repository
-# ⚗  :alembic:                   Experimenting new things
-# ⏪  :rewind:                    Reverting changes
-# 🔀  :twisted_rightwards_arrows: Merging branches
+# ---- Document, Snapshot etc ----
+# 📝  :memo:                      Writing docs
+# 🙈  :see_no_evil:               Adding or updating a .gitignore file
+# 📸  :camera_flash:              Adding or updating snapshots
 # ---- Test ----
 # ✅  :white_check_mark:          Adding a test
 # 💚  :green_heart:               Fixing Test or CI Build
@@ -36,6 +40,12 @@
 # ---- Security ----
 # 🔒  :lock:                      Fixing security issues
 # 👮  :cop:                       Update security features
+# ---- OS ----
+# 🍎  :apple:                     Fixing something on macOS
+# 🐧  :penguin:                   Fixing something on Linux
+# 🏁  :checkered_flag:            Fixing something on Windows
+# 🍏  :green_apple:               Fixing something on iOS
+# 🤖  :robot:                     Fixing something on Android.
 # ---- Dependencies ----
 # ⬇️  :arrow_down:                Downgrading dependencies
 # ⬆️  :arrow_up:                  Upgrading dependencies
