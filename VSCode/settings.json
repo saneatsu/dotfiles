@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "Inconsolata, Monaco, Consolas, 'Courier New', Courier", // Atomと同じフォントに
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Monokai Pro",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.saturation": 1,
+    "editor.rulers": [80] // 80文字の位置に線を表示
+}
