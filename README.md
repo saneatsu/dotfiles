@@ -1,7 +1,7 @@
 ## Original file place
-### VSCode/settings.json
+### VSCode file
 ```bash
-$ cp VSCode/settings.json ~/Library/Application\ Support/Code/User 
+~/Library/Application\ Support/Code/User 
 ```
 
 ## References
