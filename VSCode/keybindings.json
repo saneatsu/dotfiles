@@ -1,0 +1,35 @@
+[
+  //
+  // Ctrl+Shift+Somethingでテキスト選択
+  //
+  {
+    "key": "ctrl+shift+n",
+    "command": "cursorDownSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "cursorUpSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "cursorRightSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "cursorLeftSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "cursorHomeSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "cursorEndSelect",
+    "when": "editorTextFocus"
+  }
+]
