@@ -5,5 +5,20 @@
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.saturation": 1,
   "editor.rulers": [80], // 80文字の位置に線を表示
-  "editor.formatOnSave": true // 保存したときにフォーマットを整形(Prettier)
+  "editor.formatOnSave": true, // 保存したときにフォーマットを整形(Prettier)
+  "editor.minimap.enabled": false,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "window.zoomLevel": 0,
+
+  // Vetur + Prettierでダブルクォーテーションになってしまう問題回避
+  // https://qiita.com/glhfdev/items/f935dab244c05f52f57d#%E5%8E%9F%E5%9B%A0
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "singleQuote": true,
+      "semi": false
+    }
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true
 }
