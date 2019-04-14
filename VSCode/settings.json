@@ -9,6 +9,9 @@
   "editor.minimap.enabled": false,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
   "window.zoomLevel": 0,
 
   // Vetur + Prettierでダブルクォーテーションになってしまう問題回避
