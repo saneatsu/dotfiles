@@ -1,0 +1,37 @@
+{
+	"name": "Eagle-Oceanic-Next",
+	"displayName": "Eagle Oceanic Next",
+	"description": "Eagle Oceanic Next themes for VS Code.",
+	"version": "1.0.2",
+	"publisher": "graf009",
+	"homepage": "https://github.com/Graf009/vscode-theme-eagle/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Graf009/vscode-theme-eagle.git"
+	},
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#eff1f3",
+		"theme": "light"
+	},
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Eagle Oceanic Next",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Eagle Oceanic Next.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "daa0fc44-28de-4a32-a355-c76a4cd7f0d3",
+		"publisherId": "f982729e-5edd-4863-b817-a0bb53475d13",
+		"publisherDisplayName": "Oleg Orlov"
+	}
+}
