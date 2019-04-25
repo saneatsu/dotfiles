@@ -5,8 +5,14 @@
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.saturation": 1,
   "editor.rulers": [80], // 80文字の位置に線を表示
-  "editor.formatOnSave": true, // 保存したときにフォーマットを整形(Prettier)
+  "editor.formatOnSave": false, // 保存したときにフォーマットを整形(Prettier)
   "editor.minimap.enabled": false,
+  "[html]": { "editor.tabSize": 2 },
+  "[css]": { "editor.tabSize": 2 },
+  "[javascript]": { "editor.tabSize": 2 },
+  "[vue]": { "editor.tabSize": 2 },
+  "[python]": { "editor.tabSize": 4 },
+
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
@@ -23,5 +29,11 @@
     }
   },
   "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 13,
+  "code-runner.runInTerminal": true, // CodeRunnerでInputを有効にする
+  "code-runner.executorMap": {
+    "cpp": "g++ $fullFileName && ./a.out"
+  }
 }
