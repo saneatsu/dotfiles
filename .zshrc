@@ -18,6 +18,16 @@ alias forfind='for d in `find ./ -type d`; do echo $d,`ls "$d" | wc -l`; done'
 alias lsal='ls -al'
 alias andst='open -a /Applications/Android\ Studio.app'
 alias aws='nocorrect aws'
+dirtouch() {
+    mkdir -p "$(dirname $1)"
+    touch "$1"
+}
+alias touch=dirtouch
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/saneatsuwakana/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/saneatsuwakana/google-cloud-sdk/path.zsh.inc'; fi
