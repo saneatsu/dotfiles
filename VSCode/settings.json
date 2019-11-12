@@ -2,6 +2,7 @@
   "editor.fontFamily": "Inconsolata, Monaco, Consolas, 'Courier New', Courier", // Atomと同じフォントに
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Monokai Pro",
+  "workbench.editor.closeEmptyGroups": false, // タブを閉じても分割画面がもとに戻らない
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.saturation": 1,
   "editor.rulers": [80], // 80文字の位置に線を表示
@@ -9,10 +10,14 @@
   "editor.minimap.enabled": false,
   "[html]": { "editor.tabSize": 2 },
   "[css]": { "editor.tabSize": 2 },
+  "[scss]": { "editor.tabSize": 2 },
   "[javascript]": { "editor.tabSize": 2 },
   "[vue]": { "editor.tabSize": 2 },
   "[python]": { "editor.tabSize": 4 },
+  "[ruby]": { "editor.tabSize": 2 },
+  "[erb]": { "editor.tabSize": 2 },
 
+  "files.insertFinalNewline": true, // 保存した際に末尾に改行追加
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
@@ -35,5 +40,6 @@
   "code-runner.runInTerminal": true, // CodeRunnerでInputを有効にする
   "code-runner.executorMap": {
     "cpp": "g++ $fullFileName && ./a.out"
-  }
+  },
+  "gitlens.mode.active": "review"
 }

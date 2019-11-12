@@ -2,8 +2,10 @@
 autoload -Uz colors
 colors
 
+export PATH=$PATH:/usr/local/bin
 export PATH="$HOME/.pyenv/shims:$PATH"
 export export PATH=$PATH:/usr/local/bin/bat
+export PATH=$PATH:/usr/local/bin/chromedriver
 
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
@@ -28,6 +30,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
+alias g="git"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/saneatsuwakana/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/saneatsuwakana/google-cloud-sdk/path.zsh.inc'; fi
@@ -40,6 +43,11 @@ if [ -f '/Users/saneatsuwakana/google-cloud-sdk/completion.zsh.inc' ]; then . '/
 #
 export PATH=$PATH:~/usr/local/bin/npm
 export PATH=$PATH:~/usr/local/bin/yarn
+
+#
+# Python
+#
+#export PYTHONPATH="/usr/local/lib/python3.7/site-packages/:$PYTHONPATH"
 
 #
 # MySQL
@@ -55,6 +63,7 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 export PATH=$PATH:~/flutter/bin
 export PATH=$PATH:~/usr/local/bin/pod
+export FLUTTER_ROOT=~/flutter/bin
 
 #
 # rbenv, Rails
@@ -62,3 +71,4 @@ export PATH=$PATH:~/usr/local/bin/pod
 export RBENV_ROOT=/usr/local/var/rbenv
 export PATH=$PATH:/usr/bin/rails
 eval "$(rbenv init -)"
+eval "$(direnv hook zsh)"
