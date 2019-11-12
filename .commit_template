@@ -2,23 +2,29 @@
 
 # ==== Emojis ====
 # ---- General ----
-# 👍  :+1:                        Update features
 # ✨  :sparkles:                  Add partial new features
+# 👍  :+1:                        Update features
 # 🎉  :tada:                      Add significant new features
-# 🗑️  :wastebasket:               Remove file
+# 🚀  :rocket:                    Update performance
 # ⚗  :alembic:                   Experimenting new things
 # ♻️  :recycle:                   Refactoring code
-# 🎨  :art:                       Improving structure/format of the code
-# 💄  :lipstick:                  Updating the UI and style files
-# 🗃  :card_file_box:             Update database shcema
-# 👾  :space_invader:             Update about animetion
+# ---- UI/UX ----
+# 💄  :lipstick:                  Add or update UI and style files
+# 🎨  :art:                       Significant update UI
 # 💫  :dizzy:                     Improving UX
+# 👾  :space_invader:             Update about animetion
+# ---- DB ----
+# 🗃  :card_file_box:             Update model shcema
+# 🗄  :file_cabinet:              Update about database
+# ---- Setting ----
 # 🔧  :wrench:                    Changing configuration files
 # 📦  :package:                   Updating compiled files or packages
 # 🌐  :globe_with_meridians:      Internationalization and localization
-# 🚀  :rocket:                    Update performance
-# 🚚  :truck:                     Move/rename files or repository
 # 💡  :bulb:                      Documenting source code
+# ---- Remove/Rename ----
+# 🗑️  :wastebasket:               Remove file
+# 🚚  :truck:                     Move/rename files or repository
+# ---- Git ----
 # ⏪  :rewind:                    Reverting changes
 # 🔀  :twisted_rightwards_arrows: Merging branches
 # ---- Fix ----
@@ -29,8 +35,9 @@
 # 💩  :hankey:                    Writing bad code that needs to be improved
 # ---- Document, Snapshot etc ----
 # 📝  :memo:                      Writing docs
-# 🙈  :see_no_evil:               Adding or updating a .gitignore file
-# 📸  :camera_flash:              Adding or updating snapshots
+# 🙈  :see_no_evil:               Add or update a .gitignore file
+# 📸  :camera_flash:              Add or update snapshots
+# 🗂️  :card_index_dividers:        Add or update assets
 # ---- Test ----
 # ✅  :white_check_mark:          Adding a test
 # 💚  :green_heart:               Fixing Test or CI Build
